@@ -4,6 +4,7 @@ version: 1.0.2
 homepage: https://github.com/LuisThein
 repository: https://github.com/LuisThein/platform_maps_flutter
 issue_tracker: https://github.com/LuisThein/platform_maps_flutter/issues
+publish_to: 'none'
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -12,9 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  google_maps_flutter: ^2.0.1
-  google_maps_flutter_platform_interface: ^2.0.3
-  apple_maps_flutter: ^1.0.1
+  google_maps_flutter: ^2.5.3
+  apple_maps_flutter:
+    git:
+      url: https://github.com/App-and-Up/apple_maps_flutter
 
 dev_dependencies:
   flutter_test:

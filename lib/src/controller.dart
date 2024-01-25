@@ -117,5 +117,7 @@ class PlatformMapController {
     } else if (Platform.isAndroid) {
       return this.googleController!.takeSnapshot();
     }
+    
+    return null;
   }
 }
